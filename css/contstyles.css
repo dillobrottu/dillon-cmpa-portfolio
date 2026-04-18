@@ -1,0 +1,244 @@
+.main-container { 
+	display: grid;
+	grid-template-areas:
+		'topper topper'
+		'three1 four1'
+        'three2 four2'
+        'three3 four3'
+        'three4 four4'
+        'footer footer'
+		;
+	grid-template-columns: 2fr 2fr;
+	gap: 10px;
+	background-color: #3730c4;
+	padding: 10px;
+}
+.main-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.main-container h1 {
+	font-size:50px;
+}
+.main-container h2 {
+	font-size: 40px;
+}
+.main-container a {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.4s ease;
+}
+.main-container a:hover {
+	color: #3730c4;
+	text-decoration: none;
+}
+.topper {
+    grid-area: topper;
+    padding: 10px;
+}
+.topper p {
+	font-size:30px;
+}
+.topper a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.topper a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.three1 {
+    grid-area: three1;
+    padding: 10px;
+}
+.three1 p {
+	font-size:30px;
+}
+.three1 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.three1 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.three1 img {
+    height: 250px;
+    width: 350px;
+}
+.three2 {
+    grid-area: three2;
+    padding: 10px;
+}
+.three2 p {
+	font-size:30px;
+}
+.three2 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.three2 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.three2 img {
+    height: 250px;
+    width: 350px;
+}
+.three3 {
+    grid-area: three3;
+    padding: 10px;
+}
+.three3 p {
+	font-size:30px;
+}
+.three3 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.three3 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.three4 {
+    grid-area: three4;
+    padding: 10px;
+}
+.three4 p {
+	font-size:30px;
+}
+.three4 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.three4 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.four1 {
+    grid-area: four1;
+    padding: 10px;
+}
+.four1 p {
+	font-size:30px;
+}
+.four1 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.four1 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.four2 {
+    grid-area: four2;
+    padding: 10px;
+}
+.four2 p {
+	font-size:30px;
+}
+.four2 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.four2 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.four3 {
+    grid-area: four3;
+    padding: 10px;
+}
+.four3 p {
+	font-size:30px;
+}
+.four3 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.four3 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.four4 {
+    grid-area: four4;
+    padding: 10px;
+}
+.four4 p {
+	font-size:30px;
+}
+.four4 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.four4 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.footer { 
+	grid-area: footer; 
+	padding: 10px;
+}
+.footer p {
+	font-size:30px;
+}
+.footer a {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.footer a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+}
+.github {
+    background-color: white;
+    color: #ffffff;
+    padding: 8px 8px;
+    border: 2px solid;
+	border-radius: 10px;
+	transition: 0.4s ease;
+}
