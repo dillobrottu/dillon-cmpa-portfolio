@@ -289,25 +289,38 @@ nav .sideMenuButton {
 	text-decoration: underline;
 }
 
-.foot a {
+.foot-container { 
+	display: grid;
+	grid-template-areas:
+		'pwork home nwork '
+		;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	background-color: #3730c4;
+	padding: 10px;
+}
+.home {
+	grid-area: home;
+	padding: 20px;
+}
+.pwork {
+	grid-area: pwork;
+	padding: 20px;
+}
+.nwork {
+	grid-area: nwork;
+	padding: 20px;
+}
+.foot-container a {
     color: black;
     font-size: 50px;
     font-weight: 500;
     text-decoration: none;
 	transition: 0.2s ease;
 }
-.foot a:hover {
-	transform: scale(150%);
-    background-color: #0066B1;
+.foot-container a:hover {
 	color: white;
 	text-decoration: none;
 }
-.github {
-    background-color: white;
-    color: #ffffff;
-    padding: 8px 8px;
-    border: 2px solid;
-	border-radius: 10px;
-	transition: 0.4s ease;
-}
+
 }
