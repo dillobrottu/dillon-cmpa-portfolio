@@ -127,6 +127,21 @@ nav .sideMenuButton {
 	text-decoration: underline;
 }
 
+.site iframe {
+	border: 0; 
+	width: 50%; 
+	height: 700px; 
+	overflow: auto; 
+	margin: 20px;
+}
+.site img {
+	border: 0; 
+	width:90%; 
+	height: 700px; 
+	overflow: auto; 
+	margin: 20px;
+}
+
 .foot a {
     color: black;
     font-size: 50px;
