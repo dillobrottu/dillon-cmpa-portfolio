@@ -1,16 +1,10 @@
 @media (width >= 480px) { 
 body {
-	border-top-style: double;
-	border-left-style: double;
-	border-right-style: double;
-	border-bottom-style: double;
 	border-color: #3730c4;
 	border-width: 25px;
 	}
 
 nav {
-    width: 90%;
-    height: 185px;
     display: flex;
     justify-content: space-between;
     padding: 20px 5%;
@@ -37,6 +31,7 @@ nav .heading a:hover {
 }
 nav ul {
     display: flex;
+	flex-flow: column;
     list-style: none;
 	margin: 5px;
 	transition: all .5s ease;
@@ -157,19 +152,15 @@ nav .sideMenuButton {
 
 @media (width >= 1200px) { 
 body {
-	border-top-style: double;
-	border-left-style: double;
-	border-right-style: double;
-	border-bottom-style: double;
+	border-style: double;
 	border-color: #3730c4;
 	border-width: 25px;
 	}
 
 nav {
-    width: 90%;
-    height: 185px;
     display: flex;
     justify-content: space-between;
+	z-index: 1000;
     padding: 20px 5%;
     background-color: #3730c4;
 }
@@ -194,8 +185,8 @@ nav .heading a:hover {
 }
 nav ul {
     display: flex;
+	flex-flow: row;
     list-style: none;
-	margin: 5px;
 	transition: all .5s ease;
 }
 nav ul li {
